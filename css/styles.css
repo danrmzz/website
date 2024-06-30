@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(to right, rgb(10, 10, 10), rgb(21, 21, 21), rgb(10, 10, 10)); /* Sets a horizontal gradient background from dark grey to slightly lighter grey and back */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 250px;
+}
+
+.text-main {
+  color: #D3D3D3;
+  font-family: 'Cascadia Code';
+  font-size: 30px;
+  margin-top: -110;
+  
+}
+
+.name {
+  font-size: 45px;
+}
+
+.card {
+  width: 250px; /* Adjust based on your preference */
+  border: 1px solid #131313; /* Light grey border */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Ensures the content does not spill outside the border-radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s; /* Smooth scaling effect on hover */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarges the card on hover */
+  cursor: hand;
+}
+
+.card-img {
+  width: 100%; /* Makes the image cover the card width */
+  height: 150px; /* Maintains the image aspect ratio */
+  object-fit: cover; /* Ensures images cover the area without distorting */
+  border-top-left-radius: 10px; /* Rounded corners on the top left */
+  border-top-right-radius: 10px; /* Rounded corners on the top right */
+}
+
+.card-body {
+  padding: 15px; /* Spacing inside the card body */
+}
+
+.card-title {
+  margin: 0; /* Removes default margin */
+  font-weight: bold; /* Makes the title text bold */
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly; /* Adjusts the spacing between the cards */
+  flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
+}
+
+/* Existing styles */
+
+/* Responsive adjustments for iPhone devices */
+@media screen and (max-width: 768px) {
+  body {
+    margin: 20px; /* Reduces the margin for smaller screens */
+    flex-direction: column; /* Stacks flex items vertically */
+  }
+
+  .text-main {
+    font-size: 24px; /* Adjusts font size for better readability */
+    margin-top: 0; /* Adjusts top margin */
+  }
+
+  .card {
+    width: 100%; /* Makes cards full width */
+    margin-bottom: 20px; /* Adds space between stacked cards */
+  }
+}
