@@ -75,3 +75,12 @@ body {
     margin-bottom: 20px; /* Adds space between stacked cards */
   }
 }
+
+.card a {
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Inherits the color from the parent element, or you can set a specific color */
+}
+
+.card a:visited {
+  color: inherit; /* Prevents the color from changing to purple after the link is clicked */
+}
