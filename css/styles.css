@@ -18,6 +18,7 @@ body {
   font-size: 45px;
 }
 
+/* Card Styles */
 .card {
   position: relative;
   width: 250px; /* Adjust based on your preference */
@@ -64,7 +65,31 @@ body {
   
 }
 
-/* Existing styles */
+.card a {
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Inherits the color from the parent element, or you can set a specific color */
+}
+
+.card a:visited {
+  color: inherit; /* Prevents the color from changing to purple after the link is clicked */
+}
+
+.card-icon {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 100px; /* Adjusted size */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.lang-icon {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  width: 20px; /* Small icon size */
+  height: auto;
+}
 
 /* Responsive adjustments for iPhone devices */
 @media screen and (max-width: 768px) {
@@ -82,30 +107,4 @@ body {
     width: 100%; /* Makes cards full width */
     margin-bottom: 20px; /* Adds space between stacked cards */
   }
-}
-
-.card a {
-  text-decoration: none; /* Removes underline from links */
-  color: inherit; /* Inherits the color from the parent element, or you can set a specific color */
-}
-
-.card a:visited {
-  color: inherit; /* Prevents the color from changing to purple after the link is clicked */
-}
-
-.card-icon {
-  display: block; /* or block, depending on your layout */
-  margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 100px; /* Adjusted size */
-  height: auto; /* Maintains the aspect ratio */
-}
-
-.lang-icon {
-  position: absolute;
-  top: 10px; /* Adjust as needed */
-  left: 10px; /* Adjust as needed */
-  width: 20px; /* Small icon size */
-  height: auto;
 }
