@@ -25,7 +25,7 @@ body {
   border: 1px solid #131313; /* Light grey border */
   border-radius: 10px; /* Rounded corners */
   overflow: hidden; /* Ensures the content does not spill outside the border-radius */
-  box-shadow: 0 4px 8px rgba(126, 129, 255, 0.1); /* Subtle shadow for depth */
+  box-shadow: 0 4px 8px rgba(117, 117, 117, 0.1); /* Subtle shadow for depth */
   transition: transform 0.2s; /* Smooth scaling effect on hover */
   background-color: rgb(48, 48, 48);
 }
