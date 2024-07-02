@@ -3,14 +3,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 250px;
+  margin-left: 250px;
+  margin-right: 250px;
+  min-height: 100vh; /* Ensure body covers the full viewport height */
+  position: relative;
 }
 
 .text-main {
   color: #D3D3D3;
   font-family: 'Cascadia Code';
   font-size: 30px;
-  margin-top: -110;
+  
   
 }
 
@@ -28,6 +31,7 @@ body {
   box-shadow: 0 4px 8px rgba(117, 117, 117, 0.1); /* Subtle shadow for depth */
   transition: transform 0.2s; /* Smooth scaling effect on hover */
   background-color: rgb(48, 48, 48);
+  margin-bottom: 20px;
 }
 
 .card:hover {
@@ -91,6 +95,33 @@ body {
   height: auto;
 }
 
+.small-text {
+  font-size: 19px;
+}
+
+.smaller-text {
+  font-size: 17px;
+}
+
+.linkedin {
+  height: auto;
+  width: 55px;
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  z-index: 100; /* Ensures the logo stays on top */
+}
+
+.github {
+  height: auto;
+  width: 50px;
+  position: absolute;
+  top: 12px; /* Adjust as needed */
+  right: -60px; /* Adjust as needed */
+  z-index: 100; /* Ensures the logo stays on top */
+}
+
+
 /* Responsive adjustments for iPhone devices */
 @media screen and (max-width: 768px) {
   body {
@@ -100,11 +131,27 @@ body {
 
   .text-main {
     font-size: 24px; /* Adjusts font size for better readability */
-    margin-top: 0; /* Adjusts top margin */
+    margin-top: 40px; /* Adjusts top margin */
+    
   }
 
   .card {
     width: 100%; /* Makes cards full width */
     margin-bottom: 20px; /* Adds space between stacked cards */
+  }
+}
+
+/* Media query for iPhone and similar width devices */
+@media screen and (max-width: 768px) {
+  .linkedin, .github {
+    width: 40px; /* Smaller size for smaller screens */
+    top: 5px; /* Adjusted positioning */
+    right: -2px; /* Adjusted positioning for GitHub, making sure it's not off-screen */
+  }
+
+  .linkedin {
+    right: 45px; /* Adjust so it doesn't overlap with the LinkedIn logo */
+    width: 45px;
+    top: 3.57px
   }
 }
