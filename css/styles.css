@@ -58,3 +58,9 @@ body::before {
   padding-left: 25px;
   padding-right: 25px;
 }
+
+.name {
+  font-size: 50px;
+  font-family: "Anton SC";
+
+}
