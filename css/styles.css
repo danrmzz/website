@@ -188,9 +188,9 @@ body {
 
 @media (max-width: 768px) {
   .glassmorphic-square {
-    width: 300px;
+    width: 75%;
     /* Smaller width */
-    height: 590px;
+    height: 70%;
     /* Smaller height */
     position: absolute;
     /* Keep it positioned absolutely */
@@ -258,9 +258,9 @@ body {
 
 @media (max-width: 375px) {
   .glassmorphic-square {
-    width: 300px;
+    width: 75%;
     /* Smaller width */
-    height: 450px;
+    height: 70%;
     /* Smaller height */
     position: absolute;
     /* Keep it positioned absolutely */
