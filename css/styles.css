@@ -96,29 +96,9 @@ body {
 
 
 
-@media (max-width: 768px) {
-  .glassmorphic-square {
-    width: 300px; /* Smaller width */
-    height: 190px; /* Smaller height */
-    position: absolute; /* Keep it positioned absolutely */
-    top: 5%;
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust horizontal position to truly center the element */
-    border-radius: 25px; /* Adjusted rounded corners for smaller size */
-    backdrop-filter: blur(25px); /* Adjust blur effect for the glassmorphic look */
-    -webkit-backdrop-filter: blur(25px); /* For Safari */
-  }
 
-  .glass-text {
-    font-size: 12px; /* Adjust the size as needed */
-    padding-right: 20px;
-  }
 
-  .name {
-    font-size: 20px;
 
-  }
-}
 
 
 .vertical-nav {
@@ -156,10 +136,63 @@ body {
 }
 
 .vertical-nav ul li a:hover {
-  background-color: ; /* Light grey background on hover, adjust as needed */
   cursor: pointer;
 }
 .vertical-nav a img {
   vertical-align: middle; /* Aligns the image vertically in the middle of the line */
 }
 
+
+@media (max-width: 768px) {
+  .glassmorphic-square {
+    width: 300px; /* Smaller width */
+    height: 590px; /* Smaller height */
+    position: absolute; /* Keep it positioned absolutely */
+    top: 10%;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust horizontal position to truly center the element */
+    border-radius: 25px; /* Adjusted rounded corners for smaller size */
+
+  }
+
+  .glass-text {
+    font-size: 24px; /* Adjust the size as needed */
+    padding-right: 20px;
+  }
+
+  .name {
+    font-size: 29px;
+
+  }
+
+  .vertical-nav a span {
+    display: none; /* Hide the text */
+  }
+
+  .vertical-nav  {
+    
+    width: 10px;
+    top: -110px;
+    left: 50%;
+  
+    
+    transform: rotate(-90deg) translate(-50%); /* Rotate and then shift to center */
+    transform-origin: left center; /* Pivot from the top left corner */
+
+    border-top-right-radius: 0px; /* Rounded top right corner */
+    border-bottom-right-radius: 0px; /* Rounded bottom right corner */
+
+    border-bottom-left-radius: 20px; /* Rounded top right corner */
+    border-top-left-radius: 20px; /* Rounded bottom right corner */
+
+  }
+
+  .vertical-nav img{
+    transform: rotate(90deg) translateY(30%); /* Rotate and adjust position */
+
+    
+    
+
+
+
+}
