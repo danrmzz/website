@@ -48,7 +48,7 @@ body {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); /* Glassmorphic gradient */
   border-radius: 50px; /* Rounded corners */
   backdrop-filter: blur(25px); /* Blur effect for the glassmorphic look */
-  -webkit-backdrop-filter: blur(50px); /* For Safari */
+  -webkit-backdrop-filter: blur(25px); /* For Safari */
   box-shadow: 0 0 15px 1px rgba(75, 75, 75, 0.5);
 
   display: flex;
@@ -71,6 +71,30 @@ body {
   font-family: "Anton SC";
 
 }
+
+.secondary-glass-square {
+  width: 150px; /* Smaller than the main square */
+  height: 90px; /* Adjust based on content */
+  position: relative;
+  top: 82%; /* Adjust this value to position under the main square */
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); /* Glassmorphic gradient */
+  border-radius: 25px; /* Rounded corners */
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  box-shadow: 0 0 15px 1px rgba(75, 75, 75, 0.5);
+  
+
+
+  display: flex; /* To align images horizontally */
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Center images vertically */
+  gap: 20px; /* Space between images */
+
+}
+
+
 
 @media (max-width: 768px) {
   .glassmorphic-square {
