@@ -190,7 +190,7 @@ body {
   .glassmorphic-square {
     width: 75%;
     /* Smaller width */
-    height: 70%;
+    height: 60%;
     /* Smaller height */
     position: absolute;
     /* Keep it positioned absolutely */
@@ -260,7 +260,7 @@ body {
   .glassmorphic-square {
     width: 75%;
     /* Smaller width */
-    height: 70%;
+    height: 60%;
     /* Smaller height */
     position: absolute;
     /* Keep it positioned absolutely */
