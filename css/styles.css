@@ -3,6 +3,7 @@ html, body {
   margin: 0; /* Remove default margin */
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scroll */
+  scroll-behavior: smooth;
 
 }
 
@@ -32,21 +33,21 @@ body {
 
 .blue-gradient-section {
   min-height: 100vh; /* Adjust this value as needed to ensure scrolling */
-  background: linear-gradient(to bottom right, #001c36, #4873ff);
+  background: linear-gradient(to bottom right, #001c36, #5f84ff);
 }
 
 
 /* Add this new rule to your existing CSS */
 .glassmorphic-square {
-  width: 600px; /* Adjust the size as needed */
-  height:380px; /* Adjust the size as needed */
+  width: 800px; /* Adjust the size as needed */
+  height: 500px; /* Adjust the size as needed */
   position: absolute; /* Position it over the background */
   top: 50%; /* Center vertically */
-  left: 20%;
+  left: 50%;
   transform: translate(-50%, -50%); /* Adjust position to truly center the element */
   background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); /* Glassmorphic gradient */
   border-radius: 50px; /* Rounded corners */
-  backdrop-filter: blur(50px); /* Blur effect for the glassmorphic look */
+  backdrop-filter: blur(25px); /* Blur effect for the glassmorphic look */
   -webkit-backdrop-filter: blur(50px); /* For Safari */
   box-shadow: 0 0 15px 1px rgba(75, 75, 75, 0.5);
 
@@ -58,7 +59,7 @@ body {
 
 .glass-text {
   color: #ffffff; /* White color for the text */
-  font-size: 24px; /* Adjust the size as needed */
+  font-size: 34px; /* Adjust the size as needed */
   font-family: 'Poppins', sans-serif; /* Use Poppins font */
   font-weight: 500px;
   padding-left: 25px;
@@ -66,7 +67,7 @@ body {
 }
 
 .name {
-  font-size: 50px;
+  font-size: 70px;
   font-family: "Anton SC";
 
 }
@@ -95,4 +96,46 @@ body {
   }
 }
 
+
+.vertical-nav {
+  position: fixed; /* Fixed position to stay in place while scrolling */
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); /* Center vertically */
+  width: 155px; /* Adjust width as needed */
+  height: ;
+  padding: 20px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); /* Glassmorphic gradient */
+  backdrop-filter: blur(25px);
+  z-index: 1000;
+  box-shadow: 0 0 15px 1px rgba(75, 75, 75, 0.5);
+  border-top-right-radius: 20px; /* Rounded top right corner */
+  border-bottom-right-radius: 20px; /* Rounded bottom right corner */
+}
+
+.vertical-nav ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.vertical-nav ul li {
+  padding: 10px 0; /* Add some padding for each list item */
+}
+
+.vertical-nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #ffffff; /* Dark grey color for text, adjust as needed */
+  font-weight: bold;
+  font-family: 'Poppins';
+  display: block; /* Make the links fill the container */
+  font-size: 20px;
+}
+
+.vertical-nav ul li a:hover {
+  background-color: ; /* Light grey background on hover, adjust as needed */
+  cursor: pointer;
+}
+.vertical-nav a img {
+  vertical-align: middle; /* Aligns the image vertically in the middle of the line */
+}
 
