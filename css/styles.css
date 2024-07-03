@@ -255,7 +255,7 @@ body {
   }
 
   .secondary-glass-square {
-    top: 80%;
+    top: 75%;
   }
 
 }
@@ -323,6 +323,10 @@ body {
     /* Rotate and adjust position */
 
 
+  }
+
+  .secondary-glass-square {
+    top: 75%;
   }
 
 }
