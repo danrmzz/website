@@ -1,8 +1,12 @@
-html, body {
-  height: 100%; /* Ensure html and body cover the full viewport height */
-  margin: 0; /* Remove default margin */
+html,
+body {
+  height: 100%;
+  /* Ensure html and body cover the full viewport height */
+  margin: 0;
+  /* Remove default margin */
   padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
   scroll-behavior: smooth;
 
 }
@@ -10,13 +14,15 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  
+
 }
 
 .initial-view {
   height: 100vh;
-  position: relative; /* Ensure the pseudo-element is positioned relative to this container */
-  overflow: hidden; /* Prevent any overflow from the pseudo-element */
+  position: relative;
+  /* Ensure the pseudo-element is positioned relative to this container */
+  overflow: hidden;
+  /* Prevent any overflow from the pseudo-element */
 }
 
 .initial-view::before {
@@ -27,28 +33,40 @@ body {
   right: -10px;
   bottom: -10px;
   background: url('../images/back.png') no-repeat center center/cover;
-  filter: blur(4px); /* Apply the blur effect here */
-  z-index: -1; /* Ensure the pseudo-element is behind the content of .initial-view */
+  filter: blur(4px);
+  /* Apply the blur effect here */
+  z-index: -1;
+  /* Ensure the pseudo-element is behind the content of .initial-view */
 }
 
 .blue-gradient-section {
-  min-height: 100vh; /* Adjust this value as needed to ensure scrolling */
+  min-height: 100vh;
+  /* Adjust this value as needed to ensure scrolling */
   background: linear-gradient(to bottom right, #001c36, #5f84ff);
 }
 
 
 /* Add this new rule to your existing CSS */
 .glassmorphic-square {
-  width: 800px; /* Adjust the size as needed */
-  height: 500px; /* Adjust the size as needed */
-  position: absolute; /* Position it over the background */
-  top: 50%; /* Center vertically */
+  width: 800px;
+  /* Adjust the size as needed */
+  height: 500px;
+  /* Adjust the size as needed */
+  position: absolute;
+  /* Position it over the background */
+  top: 50%;
+  /* Center vertically */
   left: 50%;
-  transform: translate(-50%, -50%); /* Adjust position to truly center the element */
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); /* Glassmorphic gradient */
-  border-radius: 50px; /* Rounded corners */
-  backdrop-filter: blur(25px); /* Blur effect for the glassmorphic look */
-  -webkit-backdrop-filter: blur(25px); /* For Safari */
+  transform: translate(-50%, -50%);
+  /* Adjust position to truly center the element */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  /* Glassmorphic gradient */
+  border-radius: 50px;
+  /* Rounded corners */
+  backdrop-filter: blur(25px);
+  /* Blur effect for the glassmorphic look */
+  -webkit-backdrop-filter: blur(25px);
+  /* For Safari */
   box-shadow: 0 0 15px 1px rgba(75, 75, 75, 0.5);
 
   display: flex;
@@ -58,9 +76,12 @@ body {
 }
 
 .glass-text {
-  color: #ffffff; /* White color for the text */
-  font-size: 34px; /* Adjust the size as needed */
-  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+  color: #ffffff;
+  /* White color for the text */
+  font-size: 34px;
+  /* Adjust the size as needed */
+  font-family: 'Poppins', sans-serif;
+  /* Use Poppins font */
   font-weight: 500px;
   padding-left: 25px;
   padding-right: 25px;
@@ -73,24 +94,33 @@ body {
 }
 
 .secondary-glass-square {
-  width: 150px; /* Smaller than the main square */
-  height: 90px; /* Adjust based on content */
+  width: 150px;
+  /* Smaller than the main square */
+  height: 90px;
+  /* Adjust based on content */
   position: relative;
-  top: 82%; /* Adjust this value to position under the main square */
+  top: 82%;
+  /* Adjust this value to position under the main square */
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); /* Glassmorphic gradient */
-  border-radius: 25px; /* Rounded corners */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  /* Glassmorphic gradient */
+  border-radius: 25px;
+  /* Rounded corners */
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
   box-shadow: 0 0 15px 1px rgba(75, 75, 75, 0.5);
-  
 
 
-  display: flex; /* To align images horizontally */
-  justify-content: center; /* Center images horizontally */
-  align-items: center; /* Center images vertically */
-  gap: 20px; /* Space between images */
+
+  display: flex;
+  /* To align images horizontally */
+  justify-content: center;
+  /* Center images horizontally */
+  align-items: center;
+  /* Center images vertically */
+  gap: 20px;
+  /* Space between images */
 
 }
 
@@ -102,61 +132,81 @@ body {
 
 
 .vertical-nav {
-  position: fixed; /* Fixed position to stay in place while scrolling */
+  position: fixed;
+  /* Fixed position to stay in place while scrolling */
   left: 0;
   top: 50%;
-  transform: translateY(-50%); /* Center vertically */
-  width: 155px; /* Adjust width as needed */
+  transform: translateY(-50%);
+  /* Center vertically */
+  width: 155px;
+  /* Adjust width as needed */
   height: ;
   padding: 20px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); /* Glassmorphic gradient */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  /* Glassmorphic gradient */
   backdrop-filter: blur(25px);
   z-index: 1000;
   box-shadow: 0 0 15px 1px rgba(75, 75, 75, 0.5);
-  border-top-right-radius: 20px; /* Rounded top right corner */
-  border-bottom-right-radius: 20px; /* Rounded bottom right corner */
+  border-top-right-radius: 20px;
+  /* Rounded top right corner */
+  border-bottom-right-radius: 20px;
+  /* Rounded bottom right corner */
 }
 
 .vertical-nav ul {
-  list-style-type: none; /* Remove default list styling */
+  list-style-type: none;
+  /* Remove default list styling */
   padding: 0;
 }
 
 .vertical-nav ul li {
-  padding: 10px 0; /* Add some padding for each list item */
+  padding: 10px 0;
+  /* Add some padding for each list item */
 }
 
 .vertical-nav ul li a {
-  text-decoration: none; /* Remove underline from links */
-  color: #ffffff; /* Dark grey color for text, adjust as needed */
+  text-decoration: none;
+  /* Remove underline from links */
+  color: #ffffff;
+  /* Dark grey color for text, adjust as needed */
   font-weight: bold;
   font-family: 'Poppins';
-  display: block; /* Make the links fill the container */
+  display: block;
+  /* Make the links fill the container */
   font-size: 20px;
 }
 
 .vertical-nav ul li a:hover {
   cursor: pointer;
 }
+
 .vertical-nav a img {
-  vertical-align: middle; /* Aligns the image vertically in the middle of the line */
+  vertical-align: middle;
+  /* Aligns the image vertically in the middle of the line */
 }
 
 
 @media (max-width: 768px) {
   .glassmorphic-square {
-    width: 300px; /* Smaller width */
-    height: 590px; /* Smaller height */
-    position: absolute; /* Keep it positioned absolutely */
+    width: 300px;
+    /* Smaller width */
+    height: 590px;
+    /* Smaller height */
+    position: absolute;
+    /* Keep it positioned absolutely */
     top: 10%;
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust horizontal position to truly center the element */
-    border-radius: 25px; /* Adjusted rounded corners for smaller size */
+    left: 50%;
+    /* Center horizontally */
+    transform: translateX(-50%);
+    /* Adjust horizontal position to truly center the element */
+    border-radius: 25px;
+    /* Adjusted rounded corners for smaller size */
 
   }
 
   .glass-text {
-    font-size: 24px; /* Adjust the size as needed */
+    font-size: 24px;
+    /* Adjust the size as needed */
     padding-right: 20px;
   }
 
@@ -166,33 +216,109 @@ body {
   }
 
   .vertical-nav a span {
-    display: none; /* Hide the text */
+    display: none;
+    /* Hide the text */
   }
 
-  .vertical-nav  {
-    
+  .vertical-nav {
+
+
     width: 10px;
-    top: -110px;
+    top: -111px;
     left: 50%;
-  
+    position: absolute;
+
+
+    transform: rotate(-90deg) translate(-50%);
+    /* Rotate and then shift to center */
+    transform-origin: left center;
+    /* Pivot from the top left corner */
+
+    border-top-right-radius: 0px;
+    /* Rounded top right corner */
+    border-bottom-right-radius: 0px;
+    /* Rounded bottom right corner */
+
+    border-bottom-left-radius: 20px;
+    /* Rounded top right corner */
+    border-top-left-radius: 20px;
+    /* Rounded bottom right corner */
     
-    transform: rotate(-90deg) translate(-50%); /* Rotate and then shift to center */
-    transform-origin: left center; /* Pivot from the top left corner */
-
-    border-top-right-radius: 0px; /* Rounded top right corner */
-    border-bottom-right-radius: 0px; /* Rounded bottom right corner */
-
-    border-bottom-left-radius: 20px; /* Rounded top right corner */
-    border-top-left-radius: 20px; /* Rounded bottom right corner */
 
   }
 
-  .vertical-nav img{
-    transform: rotate(90deg) translateY(30%); /* Rotate and adjust position */
-
-    
-    
+  .vertical-nav img {
+    transform: rotate(90deg) translateY(30%);
+    /* Rotate and adjust position */
 
 
+  }
+
+}
+
+@media (max-width: 375px) {
+  .glassmorphic-square {
+    width: 300px;
+    /* Smaller width */
+    height: 450px;
+    /* Smaller height */
+    position: absolute;
+    /* Keep it positioned absolutely */
+    top: 10%;
+    left: 50%;
+    /* Center horizontally */
+    transform: translateX(-50%);
+    /* Adjust horizontal position to truly center the element */
+    border-radius: 25px;
+    /* Adjusted rounded corners for smaller size */
+
+  }
+
+  .glass-text {
+    font-size: 21px;
+    /* Adjust the size as needed */
+    padding-right: 20px;
+  }
+
+  .name {
+    font-size: 30px;
+
+  }
+
+  .vertical-nav a span {
+    display: none;
+    /* Hide the text */
+  }
+
+  .vertical-nav {
+    width: 10px;
+    top: -111px;
+    left: 50%;
+    position: absolute;
+
+
+    transform: rotate(-90deg) translate(-50%);
+    /* Rotate and then shift to center */
+    transform-origin: left center;
+    /* Pivot from the top left corner */
+
+    border-top-right-radius: 0px;
+    /* Rounded top right corner */
+    border-bottom-right-radius: 0px;
+    /* Rounded bottom right corner */
+
+    border-bottom-left-radius: 20px;
+    /* Rounded top right corner */
+    border-top-left-radius: 20px;
+    /* Rounded bottom right corner */
+
+  }
+
+  .vertical-nav img {
+    transform: rotate(90deg) translateY(30%);
+    /* Rotate and adjust position */
+
+
+  }
 
 }
