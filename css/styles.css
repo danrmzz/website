@@ -254,6 +254,10 @@ body {
 
   }
 
+  .secondary-glass-square {
+    top: 80%;
+  }
+
 }
 
 @media (max-width: 375px) {
