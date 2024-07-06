@@ -8,84 +8,337 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daniel Ramirez</title>
   <link href="css/styles.css" rel="stylesheet">
+  <link href="css/media.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="images/programming.png">
-
-  <!-- Poppins Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-
-  <!-- Cascadia Code Font -->
-  <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
-
-  <!-- Anton SC Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src='https://kit.fontawesome.com/4c729db828.js' crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-<!-- Initial Page -->
-  <div class="initial-view" id="about-me">
+<!-- Header Part -->
+  <div class="header">
+      <div class="container-fluid gx-0">
+          <!-- Navbar Start -->
+          <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand logo text-uppercase" href="#">daniel ramirez</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Navbar End -->
+          <div class="container">
+            <div class="content-home">
+              <div class="row content-home2">
+                <div class="col-lg-7 col-md-5">
+                  <div class="box-container">
+                    <img src="images/pfp.png" class="img-home" alt="pfp">
+                  </div>
+                </div>
+                <div class="col-lg-5 col-md-7">
+                  <div class="box-container2">
+                    <h1 class="home-heading">Hi, I'm<br> <span class="home-span">Daniel Ramirez</span></h1>
+                      <p class="para-home">
+                        I'm a Computer Science student at the University of Central Florida, aspiring to be a software engineer. I look forward to new opportunities that will help me grow as a programmer and make a meaningful impact within the tech industry.
+                      </p>
+                      <div class="btn-home">
+                        <a href="https://www.linkedin.com/in/danrmzz/" target="_blank" class="home-links"> <img src="images/ll.png" class="linkedin" alt=""> </a>
+                        <a href="https://github.com/danrmzz" target="_blank" class="home-links"> <img src="images/github.png" class="linkedin" alt=""> </a>
+                        <a href="#" class="home-links"> <img src="images/resume2.png" class="linkedin" alt=""> </a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <!-- Header Part End -->
+  <section class="product-category" id="projects">
+    <h2 class="heading-product">Projects</h2>
+    <div class="container-fluid">
+      <!-- Slider Carousel Bootstrap -->
 
-    <!-- Navigation Bar -->
-    <nav class="vertical-nav">
-      <ul>
-        <div class="nav-dot"></div>
-        <li>
-          <a href="#about-me"> 
-            <img src="images/information.png" width="25px" height="auto"><span style="margin-left: 6px;">About Me</span>
-          </a>
-        </li>
-        <li>
-          <a href="#projects">
-            <img src="images/layers.png" width="20px" height="auto"><span style="margin-left: 10px;">Projects</span>
-          </a>
-        </li>
-        <li>
-          <a href="#experience">
-            <img src="images/work.png" width="20px" height="auto" style="position: relative; top: -2px;"><span style="margin-left: 10px;">Experience</span>
-          </a>
-        </li>
-        <li>
-          <a href="#skills"> <img src="images/skills.png" width="20px" height="auto"><span style="margin-left: 10px;">Skills</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
 
-    <!-- Main Square -->
-    <div class="glassmorphic-square">
-      <p class="glass-text">Hi, I'm <span class="name">daniel ramirez</span>.<br>I'm a <span class="cs">Computer Science</span> student at the <a href="https://www.ucf.edu/" target="_blank" class="ucf">University of Central Florida</a>, aspiring to be a
-        software engineer. I look forward to new opportunities that will help me grow as a programmer and make a
-        meaningful impact within the tech industry.</p>
+                  <div class="card card-product">
+                    <img src="images/white.png" class="card-img-top img-card" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">SOMETHING ONE</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat dicta facilis ullam perferendis impedit omnis ex, expedita deserunt! Exercitationem, et rem? Autem, esse eligendi corrupti dolore illum voluptatem nam temporibus?</p>
+                      <a href="#" class="home-links project-links"><span class="prev">Preview</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                  <div class="card card-product">
+                    <img src="images/white.png" class="card-img-top img-card" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">SOMETHING TWO</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat dicta facilis ullam perferendis impedit omnis ex, expedita deserunt! Exercitationem, et rem? Autem, esse eligendi corrupti dolore illum voluptatem nam temporibus?</p>
+                      <a href="#" class="home-links project-links"><span class="prev">Preview</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                  <div class="card card-product">
+                    <img src="images/white.png" class="card-img-top img-card" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">SOMETHING THREE</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat dicta facilis ullam perferendis impedit omnis ex, expedita deserunt! Exercitationem, et rem? Autem, esse eligendi corrupti dolore illum voluptatem nam temporibus?</p>
+                      <a href="#" class="home-links project-links"><span class="prev">Preview</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+
+                  <div class="card card-product">
+                    <img src="images/white.png" class="card-img-top img-card" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">SOMETHING ONE</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat dicta facilis ullam perferendis impedit omnis ex, expedita deserunt! Exercitationem, et rem? Autem, esse eligendi corrupti dolore illum voluptatem nam temporibus?</p>
+                      <a href="#" class="home-links project-links"><span class="prev">Preview</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                  <div class="card card-product">
+                    <img src="images/white.png" class="card-img-top img-card" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">SOMETHING TWO</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat dicta facilis ullam perferendis impedit omnis ex, expedita deserunt! Exercitationem, et rem? Autem, esse eligendi corrupti dolore illum voluptatem nam temporibus?</p>
+                      <a href="#" class="home-links project-links"><span class="prev">Preview</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                  <div class="card card-product">
+                    <img src="images/white.png" class="card-img-top img-card" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">SOMETHING THREE</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat dicta facilis ullam perferendis impedit omnis ex, expedita deserunt! Exercitationem, et rem? Autem, esse eligendi corrupti dolore illum voluptatem nam temporibus?</p>
+                      <a href="#" class="home-links project-links"><span class="prev">Preview</span> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+        <button class="carousel-control-prev btn-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+
+          <span><i class="fa-solid fa-arrow-left btn-scroll button-left"></i></span>
+
+        </button>
+        <button class="carousel-control-next btn-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+
+          <span><i class="fa-solid fa-arrow-right btn-scroll button-right"></i></span>
+
+        </button>
+      </div>
+
     </div>
-    <div class="secondary-glass-square">
-      <a href="https://www.linkedin.com/in/danrmzz/" target="_blank"><img src="images/ll.png" alt="LinkedIn" style="width: 40px; height: auto; position: relative; top: 2px;"></a>
-      <a href="https://github.com/danrmzz" target="_blank"><img src="images/github.png" alt="GitHub" style="width: 40px; height: auto; position: relative; top: 2px;"></a>
+  </section>
+  <!-- Product Part End -->
+
+  <!-- Testimonials Section Start -->
+  <!-- 58:29 -->
+
+  <section class="testimonial" id="experience">
+
+    <h2 class="heading-testimonial">
+      Experience
+    </h2>
+    <p class="para-testimonial">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus perferendis dolorum illo id, a hic cum, vel laborum rem nesciunt consequuntur nostrum facilis, iusto ab aut consequatur cupiditate unde! Sit?</p>
+    <div class="container-fluid">
+
+      <!-- Slider Bootstrap -->
+      <div class="container-fluid">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 1"></button>
+            <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+              <div class="container-clients">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 my-2">
+                    <div class="container-content">
+                      <div class="img-client">
+                        <img src="images/mister.png" class="image-clients" alt="">
+                      </div>
+
+                      <div class="icons-stars">
+                        <h3 class="client-name">Aiden Mathide</h3>
+                        <p class="para-client">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui doloribus architecto nisi id, fuga est, aut dolores deserunt vel, laborum quisquam at. Unde sunt a corporis quam quasi, eius fugit.</p>
+                        <h5 class="profession">Web Designer</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 my-2">
+                    <div class="container-content">
+                      <div class="img-client">
+                        <img src="images/Funon4th-Graphic.png" class="image-clients" alt="">
+                      </div>
+
+                      <div class="icons-stars">
+                        <h3 class="client-name">Aiden Mathide</h3>
+                        <p class="para-client">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui doloribus architecto nisi id, fuga est, aut dolores deserunt vel, laborum quisquam at. Unde sunt a corporis quam quasi, eius fugit.</p>
+                        <h5 class="profession">Web Designer</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
     </div>
-  </div>
+  </section>
+  <!-- Testimonials Finished -->
 
-  <!-- Blue Gradient #1 -->
-  <div class="blue-one" id="projects">
-    <!-- Content for the section with the blue gradient background goes here -->
-    <!-- This is where you can add your cards or other elements -->
-  </div>
+    <!-- About Us Part -->
+    <div class="container" id="skills">
+      <div class="about-us-container">
+        <div class="about-us">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="content-about">
+                <h3 class="heading-about">Skills</h3>
+                <p class="para-about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore voluptates fugiat voluptatibus officiis, praesentium accusantium quis illum esse laboriosam odio.</p>
+                <p class="para-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat totam corporis iusto beatae! Vitae, quae facilis libero, sunt tempore omnis odit consectetur voluptatibus numquam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Us Part End -->
 
-  <div class="blue-two" id="experience">
-    <!-- Content for the section with the blue gradient background goes here -->
-    <!-- This is where you can add your cards or other elements -->
-  </div>
+  <!-- Contact Form -->
+    <section class="contact-form"  id="contact">
+    <h3 class="heading-contact">Contact</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <form class="form-origin">
 
-  <div class="blue-three" id="skills">
-    <!-- Content for the section with the blue gradient background goes here -->
-    <!-- This is where you can add your cards or other elements -->
-  </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="mb-3"> 
+                  <input type="text" class="form-control" placeholder="Full Name*" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="mb-3">
+                  <input type="Email" class="form-control" placeholder="Email Address*" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+              </div>
+            </div>
 
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="mb-3">
+                  <textarea class="form-control" placeholder="Your Message" id="exampleFormControlTextarea1"></textarea>
+                </div>
+              </div>
+            </div>
 
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="mb-3 text-center">
+                  <a href="#" class="btn-contact">send Message now</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+          <div class="content-contact">
+
+            <h2 class="heading-content">More About <span>Me</span></h2>
+            <p class="para-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis omnis vel blanditiis illum. Esse, possimus. Omnis fugit voluptate dignissimos, inventore soluta impedit sapiente doloribus nesciunt id fugiat officia dolor.</p>
+            <p class="para-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam velit hic aliquam!</p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </section>
+    <!-- Contact Us Done -->
+
+    <footer>
+    <p class="para-footer"> &#169; CopyRights By Daniel Ramirez 2024</p>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 </html>
