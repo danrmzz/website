@@ -377,8 +377,8 @@ nav {
 }
 
 .container-content {
-    width: 50%;
-    height: 350px;
+    width: 80%;
+    height: 400px;
     background-color: #000000c0 !important;
     margin: auto;
     padding: 30px;
@@ -389,6 +389,18 @@ nav {
     flex-direction: column;
     position: relative;
     transition: 0.2s ease-in;
+}
+
+.carousel-control-next{
+    display: none !important;
+}
+
+.carousel-control-prev{
+    display: none !important;
+}
+
+.carousel-indicators button{
+    display: none !important;
 }
 
 .container-content:hover {
@@ -402,6 +414,7 @@ nav {
     width: 140px;
     height: 140px;
     border-radius: 50% !important;
+    box-shadow: 0 0 15px rgba(39, 39, 39, 0.527);
 }
 
 .image-clients {
@@ -437,15 +450,23 @@ nav {
     font-size: 15px;
     line-height: 24px;
     margin: 26px 0px 15px 0px;
-    text-align: center;
+    text-align: left;
 }
 
 .profession {
     color: white;
     font-weight: 00;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 38px;
     text-align: center;
+}
+
+.date {
+    color: rgba(255, 255, 255, 0.829);
+    font-weight: 200;
+    font-size: 13px;
+    text-align: center;
+    font-style: italic;
 }
 
 .carousel-indicators button{
