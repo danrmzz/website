@@ -640,3 +640,18 @@ footer {
  color: rgb(194, 194, 194) !important;
  transition: 0.2s ease-in-out;
 }
+
+.ucf {
+    text-decoration: underline !important;
+    color: rgba(255, 255, 255, 0.603);
+    
+
+}
+
+a {
+    color: rgba(255, 255, 255, 0) !important;
+}
+
+.ucf:hover {
+    color: rgba(255, 255, 255, 0.712);
+}
