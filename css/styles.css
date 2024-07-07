@@ -155,6 +155,24 @@ nav {
 
 .content-about {
     padding: 10px 38px;
+    width: 1300px;
+}
+
+.content-about img{
+    width: 40px;
+    height: auto;
+    margin: 20px;
+    margin-top: 0px;
+    transition: 0.2s ease-in-out;
+}
+
+.content-about p {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.content-about img:hover {
+    transform: translateY(-5px);
 }
 
 .heading-about {
@@ -403,7 +421,7 @@ nav {
     display: none !important;
 }
 
-.container-content:hover {
+.img-client:hover {
     transform: translateY(-14px);
 }
 
@@ -415,6 +433,7 @@ nav {
     height: 140px;
     border-radius: 50% !important;
     box-shadow: 0 0 15px rgba(39, 39, 39, 0.527);
+    transition: 0.2s ease-in;
 }
 
 .image-clients {
