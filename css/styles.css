@@ -642,16 +642,10 @@ footer {
 }
 
 .ucf {
-    text-decoration: underline !important;
-    color: rgba(255, 255, 255, 0.603);
-    
-
-}
-
-a {
-    color: rgba(255, 255, 255, 0) !important;
+    color: rgba(255, 255, 255, 0.42);
+    font-weight: bold;
 }
 
 .ucf:hover {
-    color: rgba(255, 255, 255, 0.712);
+    color: rgba(255, 255, 255, 0.596);
 }
