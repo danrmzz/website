@@ -382,16 +382,3 @@
 
 
 }
-
-@media (max-width:420px) { 
-
-    .image-clients {
-        width: 80px;
-    
-        position: absolute;
-        top: 30px;
-        left: 65px;
-    
-    }
-
-}
