@@ -312,7 +312,7 @@
 
     .heading-product {
         font-size: 25px;
-        margin-top: 50%
+        margin-top: 70%
     }
 
     .heading-testimonial {
@@ -362,6 +362,34 @@
         height: auto;
         
 
+    }
+
+}
+
+@media (max-width:450px) { 
+    .container-content {
+        width: 200%;
+    }
+
+    .image-clients {
+    
+        position: absolute;
+        top: 10px;
+        left: 65px;
+    
+    }
+
+}
+
+@media (max-width:420px) { 
+
+    .image-clients {
+        width: 80px;
+    
+        position: absolute;
+        top: 30px;
+        left: 65px;
+    
     }
 
 }
