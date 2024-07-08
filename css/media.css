@@ -375,8 +375,17 @@
     
         position: absolute;
         top: 10px;
-        left: 65px;
+        left: 60px;
     
+    }
+
+    .client-name {
+        margin-left: 20px;
+        margin-right: 20px;
+
+        left: 50%;
+        transform: translate(-50%);
+        
     }
 
 }
