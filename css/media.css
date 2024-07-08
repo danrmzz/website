@@ -368,20 +368,16 @@
 
 @media (max-width:450px) { 
     .container-content {
-        width: 200%;
+        width: 150%;
     }
 
     .image-clients {
-    
-        position: absolute;
+        width: 90px;
         top: 10px;
-        left: 55px;
+        left: 20px;
     
     }
 
-    .client-name {
-        padding-top: 15px;
-    }
 
 
 
