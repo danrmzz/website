@@ -305,17 +305,19 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12">
-          <form class="form-origin">
+          <form action="https://api.web3forms.com/submit" method="POST" class="form-origin">
+
+            <input type="hidden" name="access_key" value="d250e8d0-60d5-4f57-a7d6-82fe7621717d">
 
             <div class="row">
               <div class="col-lg-6 col-md-12">
-                <div class="mb-3"> 
-                  <input type="text" class="form-control" placeholder="Full Name*" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Full Name*" name="name" id="fullNameInput" aria-describedby="emailHelp">
                 </div>
               </div>
               <div class="col-lg-6 col-md-12">
                 <div class="mb-3">
-                  <input type="Email" class="form-control" placeholder="Email Address*" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" class="form-control" placeholder="Email Address*" name="email" id="emailInput" aria-describedby="emailHelp">
                 </div>
               </div>
             </div>
@@ -323,7 +325,7 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="mb-3">
-                  <textarea class="form-control" placeholder="Your Message" id="exampleFormControlTextarea1"></textarea>
+                  <textarea class="form-control" placeholder="Your Message" name="message" id="messageTextarea"></textarea>
                 </div>
               </div>
             </div>
@@ -331,7 +333,7 @@
             <div class="row">
                 <div class="col-lg-12">
                 <div class="mb-3 text-center">
-                  <a href="#" class="btn-contact">send Message now</a>
+                  <button type="submit" class="btn-contact">send Message now</button>
                 </div>
               </div>
             </div>
