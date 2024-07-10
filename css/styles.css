@@ -511,6 +511,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: -100px;
 }
 
 .heading-contact {
@@ -660,4 +661,12 @@ footer {
 
 #messageTextarea {
     resize: none; /* Disables all resizing */
+}
+
+.knightro {
+    width: 200px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40px;
 }

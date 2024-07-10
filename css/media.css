@@ -196,6 +196,10 @@
         margin-bottom: 150px;
         margin-top: -350px;
     }
+
+    .knightro {
+        display: none;
+    }
 }
 
 @media (max-width:768px) {
