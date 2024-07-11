@@ -317,6 +317,16 @@ nav {
     padding: 5px 0px;
     margin: 10px 0px;
     margin-bottom: 20px !important;
+    position: relative;
+}
+
+.card-title img {
+    position: absolute;
+    width: 25px;
+    margin-bottom: 0px;
+    bottom: 5px;
+    left: 93%;
+    
 }
 
 .card-text {
