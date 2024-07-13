@@ -425,7 +425,7 @@
 
 @media (max-width:450px) { 
     .container-content {
-        width: 200%;
+        width: 210%;
     }
 
     .image-clients {
@@ -455,6 +455,11 @@
     
     }
 
+    .container-content {
+        width: 230%;
+    }
+
+
 }
 
 
@@ -466,5 +471,10 @@
         left: 30px;
     
     }
+
+    .container-content {
+        width: 240%;
+    }
+
 
 }
