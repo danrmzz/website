@@ -91,6 +91,32 @@
 
 }
 
+@media (max-width:1100px) {
+
+    .btn-next {
+        position: relative;
+        top: 105% !important;
+        left: 45% !important;
+    }
+
+    .btn-prev {
+        position: relative;
+        top: 105% !important;
+        left: 40% !important;
+    }
+
+    .carousel-control-prev {
+        width: 1px;
+
+    }
+
+    .carousel-control-next {
+        width: 1px;
+
+    }
+
+}
+
 @media (max-width:992px) {
 
     .navbar {
@@ -278,9 +304,7 @@
         margin-bottom: 60px;
     }
 
-    .img-card {
-        height: 290px !important;
-    }
+
 
     .btn-scroll {
         display: none;
@@ -332,6 +356,32 @@
     .testimonial {
         margin-bottom: -200px;
     }
+}
+
+@media (max-width:767px) {
+    .btn-next {
+        position: relative;
+        top: 100% !important;
+        left: 55% !important;
+    }
+
+    .btn-prev {
+        position: relative;
+        top: 100% !important;
+        left: 30% !important;
+    }
+
+    .carousel-control-prev {
+        width: 1px;
+
+    }
+
+    .carousel-control-next {
+        width: 1px;
+
+    }
+
+
 }
 
 @media (max-width:576px) {
