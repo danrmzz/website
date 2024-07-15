@@ -310,7 +310,7 @@ nav {
 }
 
 .card-title {
-    font-size: 18px;
+    font-size: 20px;
     color: #0077ff !important;
     width: 100%;
     border-bottom: 1px solid #0077ff;
@@ -330,8 +330,8 @@ nav {
 }
 
 .card-text {
-    color: rgba(255, 255, 255, 0.873);
-    font-size: 12px;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 14px;
     line-height: 22px;
 }
 
@@ -453,10 +453,10 @@ nav {
 
 .img-client {
     position: absolute;
-    top: -62px;
-    left: -62px;
-    width: 140px;
-    height: 140px;
+    top: -42px;
+    left: -32px;
+    width: 100px;
+    height: 100px;
     border-radius: 50% !important;
     box-shadow: 0 0 15px rgba(39, 39, 39, 0.527);
     transition: 0.2s ease-in;
