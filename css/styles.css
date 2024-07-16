@@ -174,7 +174,7 @@ nav {
 }
 
 .content-about img:hover {
-    transform: translateY(-5px);
+    transform: translateY(-1px);
 }
 
 .heading-about {
@@ -448,7 +448,7 @@ nav {
 }
 
 .img-client:hover {
-    transform: translateY(-14px);
+    transform: translateY(-1px);
 }
 
 .img-client {
@@ -459,7 +459,7 @@ nav {
     height: 100px;
     border-radius: 50% !important;
     box-shadow: 0 0 15px rgba(39, 39, 39, 0.527);
-    transition: 0.2s ease-in;
+    transition: 0.1s ease-in;
 }
 
 .image-clients {
