@@ -295,8 +295,28 @@ nav {
     padding-left: 0px;
     padding-right: 0px;
     background-color: #000000c0 !important;
-
+    height: 100% !important;
+    
 }
+
+.project-links {
+    position: relative;
+    top: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    width: 50px;
+    margin-left: 16px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10%;
+
+  }
+
+  .project-card {
+    padding-bottom: 24px !important;
+  }
 
 .img-card {
     height: 100px !important; /* Fixed height */
@@ -306,7 +326,12 @@ nav {
 }
 
 .queue {
-    object-position: center -7px; /* Move the image up by 10 pixels */
+    object-position: center; /* Move the image up by 10 pixels */
+}
+
+.snake {
+    object-position: center -50px;
+
 }
 
 .card-title {
@@ -325,7 +350,7 @@ nav {
     width: 25px;
     margin-bottom: 0px;
     bottom: 5px;
-    left: 93%;
+    left: 90%;
     
 }
 
@@ -653,12 +678,7 @@ footer {
   height: auto;
 }
 
-.project-links {
-  position: relative;
-  bottom: -38px;
-  font-weight: 500;
-  margin-top: -20px;
-}
+
 
 .prev {
   padding-right: 5px;;

@@ -356,6 +356,11 @@
     .testimonial {
         margin-bottom: -200px;
     }
+
+    .snake {
+        object-position: center ;
+    
+    }
 }
 
 @media (max-width:767px) {
