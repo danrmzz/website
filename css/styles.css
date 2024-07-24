@@ -141,7 +141,7 @@ nav {
     margin-bottom: 400px;
     display: flex;
     align-items: center;
-    margin-top: -50px;
+    margin-top: 350px;
 }
 
 .about-us {
@@ -178,7 +178,7 @@ nav {
 }
 
 .heading-about {
-    font-size: 30px;
+    font-size: 34px;
     font-weight: bold;
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.848);
@@ -272,7 +272,7 @@ nav {
 }
 
 .heading-product {
-    font-size: 34px;
+    font-size: 38px;
     color: rgba(255, 255, 255, 0.884);
     margin-bottom: 120px;
     position: relative;
@@ -336,6 +336,7 @@ nav {
 
 .card-title {
     font-size: 20px;
+    font-weight: bold;
     color: #0077ff !important;
     width: 100%;
     border-bottom: 1px solid #0077ff;
@@ -356,7 +357,7 @@ nav {
 
 .card-text {
     color: rgba(255, 255, 255, 0.664);
-    font-size: 14px;
+    font-size: 15px;
     line-height: 22px;
 }
 
@@ -413,10 +414,10 @@ nav {
 }
 
 .heading-testimonial {
-    font-size: 34px;
+    font-size: 38px;
     color: rgba(255, 255, 255, 0.884);
     margin-bottom: 35px;
-    margin-top: 80px;
+    margin-top: 480px;
     position: relative;
 }
 
@@ -432,7 +433,7 @@ nav {
 
 .para-testimonial {
     color: rgba(255, 255, 255, 0.856);
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 1px;
     text-align: center !important;
     max-width: 760px;
@@ -445,19 +446,42 @@ nav {
 }
 
 .container-content {
-    width: 90%;
+    width: 100%;
     height: 400px;
     background-color: #000000c0 !important;
-    margin: auto;
+    
     padding: 30px;
     text-align: end;
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
     transition: 0.2s ease-in;
+    margin-bottom: 24px;
 }
+
+.mister {
+    background-image: url("../images/mc_dark.png");
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Cover the entire area of the element */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+.funspot {
+    background-image: url("../images/fs_dark.png");
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Cover the entire area of the element */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+.headstarter {
+    background-image: url("../images/ai_dark.png");
+    background-position: center; /* Center the background image */
+    background-size: cover; /* Cover the entire area of the element */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
 
 .testimonial .carousel-control-next {
     display: none;
@@ -472,20 +496,6 @@ nav {
     display: none !important;
 }
 
-.img-client:hover {
-    transform: translateY(-1px);
-}
-
-.img-client {
-    position: absolute;
-    top: -42px;
-    left: -32px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50% !important;
-    box-shadow: 0 0 15px rgba(39, 39, 39, 0.527);
-    transition: 0.1s ease-in;
-}
 
 .image-clients {
     width: 100%;
@@ -507,7 +517,8 @@ nav {
 }
 
 .client-name {
-    font-size: 22px;
+    font-size: 30px;
+    font-weight: bold;
     margin-top: 20px;
     color: white;
     text-align: center;
@@ -516,8 +527,7 @@ nav {
 .para-client {
     color: rgba(255, 255, 255, 0.877);
     font-style: italic;
-    font-weight: 200;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
     margin: 26px 0px 15px 0px;
     text-align: left;
@@ -526,7 +536,7 @@ nav {
 .profession {
     color: white;
     font-weight: 00;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 38px;
     text-align: center;
 }
@@ -534,7 +544,7 @@ nav {
 .date {
     color: rgba(255, 255, 255, 0.829);
     font-weight: 200;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
     font-style: italic;
 }
@@ -563,7 +573,7 @@ nav {
 }
 
 .heading-contact {
-    font-size: 34px;
+    font-size: 38px;
     color: rgba(255, 255, 255, 0.848);
     margin-bottom: 120px;
     position: relative;
@@ -640,7 +650,7 @@ nav {
 .heading-content {
     color: white;
     margin-bottom: 30px;
-    font-size: 42px;
+    font-size: 44px;
     text-transform: capitalize;
     font-weight: 700;
     letter-spacing: 1px;
@@ -651,7 +661,7 @@ nav {
 }
 
 .para-content {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.637);
     margin: 16px 0px;

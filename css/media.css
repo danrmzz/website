@@ -43,18 +43,6 @@
     }
 
 
-    .img-client {
-        width: 100px;
-        height: auto;
-
-        position: absolute;
-        left: -20px;
-        top: -40px;
-
-
-
-
-    }
 
 
     .client-name {
@@ -348,10 +336,7 @@
         width: 45px;
     }
 
-    .img-client {
-        width: 40%;
-        height: auto;
-    }
+
 
     .testimonial {
         margin-bottom: -200px;
