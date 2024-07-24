@@ -538,6 +538,11 @@ nav {
 
 }
 
+.imp {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.836);
+}
+
 .profession {
     color: white;
     font-weight: 00;
