@@ -447,9 +447,8 @@ nav {
 
 .container-content {
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-color: #000000c0 !important;
-    
     padding: 30px;
     text-align: end;
     border-radius: 15px;
@@ -532,7 +531,7 @@ nav {
     font-size: 16px;
     line-height: 24px;
     margin: 26px 0px 15px 0px;
-    text-align: left;
+    text-align: center;
     text-shadow: 2px 2px 2px rgb(0, 0, 0); /* Adds a dark shadow for better readability */
     letter-spacing: 0.5px; /* Wider letter spacing */
 
