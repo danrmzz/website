@@ -522,6 +522,8 @@ nav {
     margin-top: 20px;
     color: white;
     text-align: center;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); /* Adds a dark shadow for better readability */
+    letter-spacing: 0.5px; /* Wider letter spacing */
 }
 
 .para-client {
@@ -531,6 +533,9 @@ nav {
     line-height: 24px;
     margin: 26px 0px 15px 0px;
     text-align: left;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); /* Adds a dark shadow for better readability */
+    letter-spacing: 0.5px; /* Wider letter spacing */
+
 }
 
 .profession {
@@ -539,6 +544,8 @@ nav {
     font-size: 18px;
     margin-top: 38px;
     text-align: center;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); /* Adds a dark shadow for better readability */
+    letter-spacing: 0.5px; /* Wider letter spacing */
 }
 
 .date {
@@ -547,6 +554,8 @@ nav {
     font-size: 15px;
     text-align: center;
     font-style: italic;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); /* Adds a dark shadow for better readability */
+    letter-spacing: 0.5px; /* Wider letter spacing */
 }
 
 .carousel-indicators button{
