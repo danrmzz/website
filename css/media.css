@@ -25,12 +25,48 @@
 
 }
 
+@media (max-width:1300px) {
+
+    .container-content {
+        height: 100% !important;
+    }
+
+    .col-lg-6 {
+        margin-bottom: 24px;
+    }
+
+    .heading-testimonial {
+        margin-top: 1100px !important;
+    }
+
+    .about-us {
+        margin-top: 1100px;
+
+    }
+
+    .contact-form {
+        margin-top: 500px;
+        margin-bottom: 25px;
+
+
+    }
+    
+
+
+
+}
+
 @media (max-width:1200px) {
 
     .container-content {
         height: 100%;
         width: 100%;
+        margin-bottom: 24px;
         
+    }
+
+    .col-lg-6 {
+        margin-bottom: 24px;
     }
     
     .form-origin {
@@ -47,7 +83,7 @@
 
     .client-name {
         height: 50px;
-        width: 150px;
+        width: 100%;
         left: 50%;
         transform: translate(-50%);
         position: relative;
@@ -69,12 +105,22 @@
     }
 
     .heading-contact {
-        margin-top: 170px;
+        margin-top: 10px !important;
     }
 
     .contact-form {
         margin-bottom: 100px;
+        margin-top: 10px;
     }
+
+    .heading-testimonial {
+        margin-top: 650px !important;
+    }
+
+    .about-us {
+        margin-top: 790px;
+    }
+
 
 
 }
@@ -84,13 +130,13 @@
     .btn-next {
         position: relative;
         top: 105% !important;
-        left: 45% !important;
+        left: 58% !important;
     }
 
     .btn-prev {
         position: relative;
         top: 105% !important;
-        left: 40% !important;
+        left: 42% !important;
     }
 
     .carousel-control-prev {
@@ -102,6 +148,20 @@
         width: 1px;
 
     }
+
+    .heading-testimonial {
+        margin-top: 1100px !important;
+    }
+
+    .about-us {
+        margin-top: 1300px !important;
+    }
+
+    .contact-form {
+        margin-top: 650px;
+    }
+
+
 
 }
 
@@ -159,7 +219,7 @@
     }
 
     .about-us {
-        margin-top: 0px;
+        margin-top: -900px !important;
     }
 
     .product-category {
@@ -174,8 +234,12 @@
 
     .container-content {
         width: 110%;
-        height: 80%;
+        height: 50% !important;
         margin-bottom: 100px;
+    }
+
+    .col-lg-6 {
+        height: 50% !important;
     }
 
     .testimonial {
@@ -221,11 +285,15 @@
 
     .contact-form {
         margin-bottom: 150px;
-        margin-top: -350px;
+        margin-top: -850px;
     }
 
     .knightro {
         display: none;
+    }
+
+    .heading-testimonial {
+        margin-top: 150px !important;
     }
 }
 
@@ -328,7 +396,7 @@
     }
 
     .contact-form {
-        margin-top: 250px;
+        margin-top: -250px;
     }
 
     .content-about img {
@@ -352,13 +420,13 @@
     .btn-next {
         position: relative;
         top: 100% !important;
-        left: 55% !important;
+        left: 80% !important;
     }
 
     .btn-prev {
         position: relative;
         top: 100% !important;
-        left: 30% !important;
+        left: 20% !important;
     }
 
     .carousel-control-prev {
@@ -388,7 +456,7 @@
     }
 
     .about-us-container {
-        margin-top: -350px !important;
+        margin-top: 300px !important;
     }
 
     .heading-product {
@@ -431,6 +499,7 @@
         width: 100%;
 
     }
+
 
     .content-about img {
        margin-right: 40px;
@@ -478,6 +547,7 @@
     .about-us {
         height: 130%;
     }
+    
 
 
 
