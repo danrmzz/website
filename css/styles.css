@@ -354,7 +354,7 @@ nav {
 }
 
 .snake {
-    object-position: center -50px;
+    object-position: top;
 
 }
 
@@ -774,4 +774,10 @@ footer {
 .fade-in.visible {
     opacity: 1;
     transform: translateY(0px); /* Back to original position */
+}
+
+
+.imp2 {
+    color: rgba(255, 255, 255, 0.664);
+    font-weight: bold;
 }
